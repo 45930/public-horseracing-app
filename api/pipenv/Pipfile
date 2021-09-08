@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+flask = "*"
+sqlalchemy = "*"
+flask-migrate = "*"
+gunicorn = "*"
+flask-sqlalchemy = "*"
+psycopg2 = "*"
+flask-script = "*"
+flask-cors = "*"
+boto3 = "*"
+pytz = "*"
+flask-caching = "*"
+pandas = "*"
+sklearn = "*"
+numpy = "*"
+tensorflow = "==2.4.1"
+cython = "*"
+
+[requires]
+python_version = "3.8"

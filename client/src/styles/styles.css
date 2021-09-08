@@ -1,0 +1,158 @@
+.race-card {
+  padding-bottom: 25px;
+}
+
+.rowLink {
+  color: black;
+}
+
+.rowLink:hover {
+  color: black;
+}
+
+tr.row-highlight:hover,
+td.cell-highlight:hover {
+  background-color: lightsteelblue !important;
+}
+
+.column {
+  display: inline-block !important;
+}
+
+.scroll {
+  overflow: auto;
+  white-space: nowrap !important;
+  flex-wrap: nowrap !important;
+}
+
+.runningLine {
+  margin-right: 12px !important;
+  padding: 4px;
+}
+
+.runningLineWrapper {
+  margin-right: 12px !important;
+  padding-right: 4px;
+  padding-left: 4px;
+  width: 40px;
+  display: inline-block;
+}
+
+.program-number-one {
+  background-color: red !important;
+  color: white;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-two {
+  background-color: white !important;
+  border: 1px solid black;
+  color: black;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-three {
+  background-color: blue !important;
+  color: white;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-four {
+  background-color: yellow !important;
+  color: black;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-five {
+  background-color: green !important;
+  color: white;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-six {
+  background-color: black !important;
+  color: yellow;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-seven {
+  background-color: orange !important;
+  color: white;
+  border-radius: 2px;
+  width: 25px;
+  height: 40px;
+}
+
+.program-number-eight {
+  background-color: pink !important;
+  color: black;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-nine {
+  background-color: turquoise !important;
+  color: black;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-ten {
+  background-color: purple !important;
+  color: white;
+  border-radius: 2px;
+  width: 25px;
+  height: 40px;
+}
+
+.program-number-eleven {
+  background-color: grey !important;
+  color: red;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number-twelve {
+  background-color: lime !important;
+  color: darkgreen;
+  border-radius: 2px;
+  width: 23px;
+  height: 40px;
+}
+
+.program-number {
+  background-color: lightblue !important;
+  color: black;
+  border-radius: 2px;
+  width: 25px;
+  height: 40px;
+}
+
+.bottom-div {
+  margin-bottom: 50px;
+}
+
+.segment {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.top-padded {
+  padding-top: 30px !important;
+}

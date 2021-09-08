@@ -1,0 +1,1145 @@
+{
+  "race_file": {
+    "extension": ".cr",
+    "model": "Race",
+    "columns": [
+      {
+        "name": "track_code",
+        "index": 0,
+        "data_type": "String"
+      },
+      {
+        "name": "date",
+        "index": 1,
+        "data_type": "Date"
+      },
+      {
+        "name": "race_number",
+        "index": 2,
+        "data_type": "Integer"
+      },
+      {
+        "name": "track_name",
+        "index": 4,
+        "data_type": "String"
+      },
+      {
+        "name": "state",
+        "index": 5,
+        "data_type": "String"
+      },
+      {
+        "name": "division",
+        "index": 6,
+        "data_type": "String"
+      },
+      {
+        "name": "breed",
+        "index": 7,
+        "data_type": "String"
+      },
+      {
+        "name": "state_bred",
+        "index": 8,
+        "data_type": "String"
+      },
+      {
+        "name": "sex_restrictions",
+        "index": 9,
+        "data_type": "String"
+      },
+      {
+        "name": "age_restrictions",
+        "index": 10,
+        "data_type": "String"
+      },
+      {
+        "name": "race_class",
+        "index": 11,
+        "data_type": "String"
+      },
+      {
+        "name": "purse",
+        "index": 12,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "high_claim_price",
+        "index": 13,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "low_claim_price",
+        "index": 14,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "distance",
+        "index": 15,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "inner_track_code",
+        "index": 16,
+        "data_type": "String"
+      },
+      {
+        "name": "surface_code",
+        "index": 17,
+        "data_type": "String"
+      },
+      {
+        "name": "race_type_code",
+        "index": 18,
+        "data_type": "String"
+      },
+      {
+        "name": "grade",
+        "index": 19,
+        "data_type": "Integer"
+      },
+      {
+        "name": "day_of_week",
+        "index": 24,
+        "data_type": "String"
+      },
+      {
+        "name": "post_time",
+        "index": 25,
+        "data_type": "String"
+      }
+    ]
+  },
+  "horse_file": {
+    "extension": ".ch",
+    "model": "Entrant",
+    "columns": [
+      {
+        "name": "track_code",
+        "index": 0,
+        "data_type": "String"
+      },
+      {
+        "name": "date",
+        "index": 1,
+        "data_type": "Date"
+      },
+      {
+        "name": "race_number",
+        "index": 2,
+        "data_type": "Integer"
+      },
+      {
+        "name": "also_elig_or_mto",
+        "index": 3,
+        "data_type": "String"
+      },
+      {
+        "name": "weight",
+        "index": 4,
+        "data_type": "Integer"
+      },
+      {
+        "name": "name",
+        "index": 5,
+        "data_type": "String"
+      },
+      {
+        "name": "domestic_or_foreign_code",
+        "index": 6,
+        "data_type": "String"
+      },
+      {
+        "name": "sex",
+        "index": 8,
+        "data_type": "String"
+      },
+      {
+        "name": "year_born",
+        "index": 9,
+        "data_type": "Integer"
+      },
+      {
+        "name": "month_born",
+        "index": 10,
+        "data_type": "Integer"
+      },
+      {
+        "name": "location_born",
+        "index": 11,
+        "data_type": "String"
+      },
+      {
+        "name": "breeder",
+        "index": 12,
+        "data_type": "String"
+      },
+      {
+        "name": "color",
+        "index": 13,
+        "data_type": "String"
+      },
+      {
+        "name": "sire",
+        "index": 14,
+        "data_type": "String"
+      },
+      {
+        "name": "sire_sire",
+        "index": 15,
+        "data_type": "String"
+      },
+      {
+        "name": "dam",
+        "index": 16,
+        "data_type": "String"
+      },
+      {
+        "name": "dam_sire",
+        "index": 17,
+        "data_type": "String"
+      },
+      {
+        "name": "owner",
+        "index": 18,
+        "data_type": "String"
+      },
+      {
+        "name": "sale_location",
+        "index": 19,
+        "data_type": "String"
+      },
+      {
+        "name": "sale_year",
+        "index": 20,
+        "data_type": "Integer"
+      },
+      {
+        "name": "sale_price",
+        "index": 21,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "last_raced",
+        "index": 22,
+        "data_type": "Date"
+      },
+      {
+        "name": "bute",
+        "index": 23,
+        "data_type": "String"
+      },
+      {
+        "name": "lasix",
+        "index": 24,
+        "data_type": "String"
+      },
+      {
+        "name": "blinker_change",
+        "index": 25,
+        "data_type": "String"
+      },
+      {
+        "name": "claiming_price",
+        "index": 26,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "apprentice",
+        "index": 27,
+        "data_type": "String"
+      },
+      {
+        "name": "jockey",
+        "index": 28,
+        "data_type": "String"
+      },
+      {
+        "name": "trainer",
+        "index": 29,
+        "data_type": "String"
+      },
+      {
+        "name": "post_position",
+        "index": 30,
+        "data_type": "Integer"
+      },
+      {
+        "name": "cur_year_earn",
+        "index": 31,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "cur_year_starts",
+        "index": 32,
+        "data_type": "Integer"
+      },
+      {
+        "name": "cur_year_wins",
+        "index": 33,
+        "data_type": "Integer"
+      },
+      {
+        "name": "cur_year_places",
+        "index": 34,
+        "data_type": "Integer"
+      },
+      {
+        "name": "cur_year_shows",
+        "index": 35,
+        "data_type": "Integer"
+      },
+      {
+        "name": "prior_year_earn",
+        "index": 36,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "prior_year_starts",
+        "index": 37,
+        "data_type": "Integer"
+      },
+      {
+        "name": "prior_year_wins",
+        "index": 38,
+        "data_type": "Integer"
+      },
+      {
+        "name": "prior_year_places",
+        "index": 39,
+        "data_type": "Integer"
+      },
+      {
+        "name": "prior_year_shows",
+        "index": 40,
+        "data_type": "Integer"
+      },
+      {
+        "name": "lifetime_earn",
+        "index": 41,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "lifetime_starts",
+        "index": 42,
+        "data_type": "Integer"
+      },
+      {
+        "name": "lifetime_wins",
+        "index": 43,
+        "data_type": "Integer"
+      },
+      {
+        "name": "lifetime_places",
+        "index": 44,
+        "data_type": "Integer"
+      },
+      {
+        "name": "lifetime_shows",
+        "index": 45,
+        "data_type": "Integer"
+      },
+      {
+        "name": "wet_earn",
+        "index": 46,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "wet_starts",
+        "index": 47,
+        "data_type": "Integer"
+      },
+      {
+        "name": "wet_wins",
+        "index": 48,
+        "data_type": "Integer"
+      },
+      {
+        "name": "wet_places",
+        "index": 49,
+        "data_type": "Integer"
+      },
+      {
+        "name": "wet_shows",
+        "index": 50,
+        "data_type": "Integer"
+      },
+      {
+        "name": "turf_earn",
+        "index": 51,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "turf_starts",
+        "index": 52,
+        "data_type": "Integer"
+      },
+      {
+        "name": "turf_wins",
+        "index": 53,
+        "data_type": "Integer"
+      },
+      {
+        "name": "turf_places",
+        "index": 54,
+        "data_type": "Integer"
+      },
+      {
+        "name": "turf_shows",
+        "index": 55,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fast_dirt_earn",
+        "index": 56,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fast_dirt_starts",
+        "index": 57,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fast_dirt_wins",
+        "index": 58,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fast_dirt_places",
+        "index": 59,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fast_dirt_shows",
+        "index": 60,
+        "data_type": "Integer"
+      },
+      {
+        "name": "track_earn",
+        "index": 61,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "track_starts",
+        "index": 62,
+        "data_type": "Integer"
+      },
+      {
+        "name": "track_wins",
+        "index": 63,
+        "data_type": "Integer"
+      },
+      {
+        "name": "track_places",
+        "index": 64,
+        "data_type": "Integer"
+      },
+      {
+        "name": "track_shows",
+        "index": 65,
+        "data_type": "Integer"
+      },
+      {
+        "name": "distance_earn",
+        "index": 66,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "distance_starts",
+        "index": 67,
+        "data_type": "Integer"
+      },
+      {
+        "name": "distance_wins",
+        "index": 68,
+        "data_type": "Integer"
+      },
+      {
+        "name": "distance_places",
+        "index": 69,
+        "data_type": "Integer"
+      },
+      {
+        "name": "distance_shows",
+        "index": 70,
+        "data_type": "Integer"
+      },
+      {
+        "name": "secondary_entry",
+        "index": 71,
+        "data_type": "String"
+      },
+      {
+        "name": "jockey_meet_starts",
+        "index": 72,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_meet_earn",
+        "index": 73,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "jockey_meet_wins",
+        "index": 74,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_meet_places",
+        "index": 75,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_meet_shows",
+        "index": 76,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_ytd_starts",
+        "index": 79,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_ytd_earn",
+        "index": 80,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "jockey_ytd_wins",
+        "index": 81,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_ytd_places",
+        "index": 82,
+        "data_type": "Integer"
+      },
+      {
+        "name": "jockey_ytd_shows",
+        "index": 83,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_meet_starts",
+        "index": 86,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_meet_earn",
+        "index": 87,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "trainer_meet_wins",
+        "index": 88,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_meet_places",
+        "index": 89,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_meet_shows",
+        "index": 90,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_ytd_starts",
+        "index": 93,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_ytd_earn",
+        "index": 94,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "trainer_ytd_wins",
+        "index": 95,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_ytd_places",
+        "index": 96,
+        "data_type": "Integer"
+      },
+      {
+        "name": "trainer_ytd_shows",
+        "index": 97,
+        "data_type": "Integer"
+      },
+      {
+        "name": "stud_fee",
+        "index": 109,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "scratch",
+        "index": 110,
+        "data_type": "String"
+      }
+    ]
+  },
+  "past_performance_file": {
+    "extension": ".chr",
+    "model": "PastPerformance",
+    "columns": [
+      {
+        "name": "today_track",
+        "index": 0,
+        "data_type": "String"
+      },
+      {
+        "name": "today_date",
+        "index": 1,
+        "data_type": "Date"
+      },
+      {
+        "name": "today_race_number",
+        "index": 2,
+        "data_type": "Integer"
+      },
+      {
+        "name": "horse_name",
+        "index": 3,
+        "data_type": "String"
+      },
+      {
+        "name": "foreign_or_domestic",
+        "index": 4,
+        "data_type": "String"
+      },
+      {
+        "name": "foreign_race",
+        "index": 5,
+        "data_type": "String"
+      },
+      {
+        "name": "race_date",
+        "index": 6,
+        "data_type": "Date"
+      },
+      {
+        "name": "track_code",
+        "index": 7,
+        "data_type": "String"
+      },
+      {
+        "name": "race_number",
+        "index": 8,
+        "data_type": "Integer"
+      },
+      {
+        "name": "surface",
+        "index": 9,
+        "data_type": "String"
+      },
+      {
+        "name": "timeform_code",
+        "index": 10,
+        "data_type": "String"
+      },
+      {
+        "name": "inner_track_code",
+        "index": 11,
+        "data_type": "String"
+      },
+      {
+        "name": "distance",
+        "index": 12,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "race_class",
+        "index": 13,
+        "data_type": "String"
+      },
+      {
+        "name": "claim_price",
+        "index": 15,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "purse",
+        "index": 16,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "track_condition",
+        "index": 17,
+        "data_type": "String"
+      },
+      {
+        "name": "sex_restrictions",
+        "index": 18,
+        "data_type": "String"
+      },
+      {
+        "name": "age_restrictions",
+        "index": 19,
+        "data_type": "String"
+      },
+      {
+        "name": "state_bred",
+        "index": 20,
+        "data_type": "String"
+      },
+      {
+        "name": "field_size",
+        "index": 21,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_fraction",
+        "index": 22,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "second_fraction",
+        "index": 23,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "third_fraction",
+        "index": 24,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fourth_fraction",
+        "index": 25,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fifth_fraction",
+        "index": 26,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "sixth_fraction",
+        "index": 27,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "final_time",
+        "index": 28,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "first_horse",
+        "index": 29,
+        "data_type": "String"
+      },
+      {
+        "name": "second_horse",
+        "index": 30,
+        "data_type": "String"
+      },
+      {
+        "name": "third_horse",
+        "index": 31,
+        "data_type": "String"
+      },
+      {
+        "name": "grade",
+        "index": 38,
+        "data_type": "Integer"
+      },
+      {
+        "name": "post_position",
+        "index": 41,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_call_position",
+        "index": 42,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_call_lengths_back",
+        "index": 43,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "first_call_position",
+        "index": 42,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_call_lengths_back",
+        "index": 43,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "first_call_position",
+        "index": 42,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_call_lengths_back",
+        "index": 43,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "second_call_position",
+        "index": 44,
+        "data_type": "Integer"
+      },
+      {
+        "name": "second_call_lengths_back",
+        "index": 45,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "third_call_position",
+        "index": 46,
+        "data_type": "Integer"
+      },
+      {
+        "name": "third_call_lengths_back",
+        "index": 47,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fourth_call_position",
+        "index": 48,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fourth_call_lengths_back",
+        "index": 49,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "stretch_call_position",
+        "index": 50,
+        "data_type": "Integer"
+      },
+      {
+        "name": "stretch_call_lengths_back",
+        "index": 51,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "final_call_position",
+        "index": 52,
+        "data_type": "Integer"
+      },
+      {
+        "name": "final_call_lengths_back",
+        "index": 53,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "beyer_or_foreign_speed",
+        "index": 57,
+        "data_type": "Integer"
+      },
+      {
+        "name": "comment",
+        "index": 60,
+        "data_type": "String"
+      },
+      {
+        "name": "odds",
+        "index": 62,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "odds_position",
+        "index": 63,
+        "data_type": "Integer"
+      },
+      {
+        "name": "claimed_code",
+        "index": 64,
+        "data_type": "String"
+      },
+      {
+        "name": "lasix",
+        "index": 65,
+        "data_type": "String"
+      },
+      {
+        "name": "bute",
+        "index": 66,
+        "data_type": "String"
+      },
+      {
+        "name": "blinkers",
+        "index": 67,
+        "data_type": "String"
+      },
+      {
+        "name": "bandages",
+        "index": 68,
+        "data_type": "String"
+      },
+      {
+        "name": "jockey",
+        "index": 70,
+        "data_type": "String"
+      },
+      {
+        "name": "trainer",
+        "index": 71,
+        "data_type": "String"
+      },
+      {
+        "name": "track_variant",
+        "index": 73,
+        "data_type": "Integer"
+      },
+      {
+        "name": "speed_rating",
+        "index": 74,
+        "data_type": "Integer"
+      },
+      {
+        "name": "breed",
+        "index": 75,
+        "data_type": "String"
+      },
+      {
+        "name": "owner",
+        "index": 76,
+        "data_type": "String"
+      }
+    ]
+  },
+  "results_file": {
+    "extension": ".chart",
+    "model": "Result",
+    "columns": [
+      {
+        "name": "race_number",
+        "index": 1,
+        "data_type": "Integer"
+      },
+      {
+        "name": "horse_key",
+        "index": 2,
+        "data_type": "String"
+      },
+      {
+        "name": "foal_date",
+        "index": 4,
+        "data_type": "String"
+      },
+      {
+        "name": "jockey_key",
+        "index": 90,
+        "data_type": "String"
+      },
+      {
+        "name": "trainer_key",
+        "index": 91,
+        "data_type": "String"
+      },
+      {
+        "name": "horse_name",
+        "index": 3,
+        "data_type": "String"
+      },
+      {
+        "name": "odds",
+        "index": 36,
+        "data_type": "Integer"
+      },
+      {
+        "name": "non_betting_code",
+        "index": 37,
+        "data_type": "String"
+      },
+      {
+        "name": "post_position",
+        "index": 41,
+        "data_type": "Integer"
+      },
+      {
+        "name": "program_number",
+        "index": 42,
+        "data_type": "String"
+      },
+      {
+        "name": "start_position",
+        "index": 43,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_call_position",
+        "index": 44,
+        "data_type": "Integer"
+      },
+      {
+        "name": "second_call_position",
+        "index": 45,
+        "data_type": "Integer"
+      },
+      {
+        "name": "third_call_position",
+        "index": 46,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fourth_call_position",
+        "index": 47,
+        "data_type": "Integer"
+      },
+      {
+        "name": "fifth_call_position",
+        "index": 48,
+        "data_type": "Integer"
+      },
+      {
+        "name": "final_position",
+        "index": 49,
+        "data_type": "Integer"
+      },
+      {
+        "name": "first_call_lengths_ahead",
+        "index": 51,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "second_call_lengths_ahead",
+        "index": 52,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "third_call_lengths_ahead",
+        "index": 53,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fourth_call_lengths_ahead",
+        "index": 54,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fifth_call_lengths_ahead",
+        "index": 55,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "final_lengths_ahead",
+        "index": 56,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "first_call_lengths_behind",
+        "index": 57,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "second_call_lengths_behind",
+        "index": 58,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "third_call_lengths_behind",
+        "index": 59,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fourth_call_lengths_behind",
+        "index": 60,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "fifth_call_lengths_behind",
+        "index": 61,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "final_lengths_behind",
+        "index": 62,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "win_pay",
+        "index": 67,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "place_pay",
+        "index": 68,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "show_pay",
+        "index": 69,
+        "data_type": "DECIMAL"
+      }
+    ]
+  },
+  "betting_info_file": {
+    "extension": ".pgh",
+    "columns": [
+      {
+        "name": "track_code",
+        "index": 0,
+        "data_type": "String"
+      },
+      {
+        "name": "date",
+        "index": 1,
+        "data_type": "Date"
+      },
+      {
+        "name": "race_number",
+        "index": 2,
+        "data_type": "Integer"
+      },
+      {
+        "name": "betting_number",
+        "index": 3,
+        "data_type": "String"
+      },
+      {
+        "name": "horse_name",
+        "index": 5,
+        "data_type": "String"
+      },
+      {
+        "name": "morning_line_odds",
+        "index": 7,
+        "data_type": "String"
+      }
+    ]
+  },
+  "wager_payout_file": {
+    "extension": ".chart",
+    "model": "WagerPayout",
+    "columns": [
+      {
+        "name": "track_code",
+        "data_type": "String"
+      },
+      {
+        "name": "race_date",
+        "data_type": "String(10)"
+      },
+      {
+        "name": "race_number",
+        "index": 1,
+        "data_type": "Integer"
+      },
+      {
+        "name": "wager_type",
+        "index": 2,
+        "data_type": "String"
+      },
+      {
+        "name": "minimum",
+        "index": 5,
+        "data_type": "DECIMAL"
+      },
+      {
+        "name": "payout_amount",
+        "index": 7,
+        "data_type": "DECIMAL"
+      }
+    ]
+  }
+}
