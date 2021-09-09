@@ -18,6 +18,8 @@ On any given day, once the data has been processed into the DB, then the app wil
 
 Diagram of the db models:
 
+![diagram](https://raw.githubusercontent.com/qcomps/public-horseracing-app/master/assets/db_models.jpg)
+
 This app uses flask and sqlalchemy to serve a json API from the database. The routes are listed in [main.py](https://github.com/qcomps/public-horseracing-app/blob/master/api/main.py).
 
 # Client
